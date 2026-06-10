@@ -10,13 +10,12 @@ Struttura del progetto:
 nome-progetto/
 ├── README.md
 ├── index.html
-├── pagina-1.html
-├── pagina-2.html
+├── ricette.html
+├── ingredienti.html
 ├── style.css
 ├── script.js
 ├── data.json
 ├── docs/
 │   ├── installazione.md
-│   ├── faq.md
 │   └── api.md
 
