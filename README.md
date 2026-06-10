@@ -1,6 +1,6 @@
 # Esame_REDAZ.MANUALISTICA_Lorenzo_Cuminetti.2026
 Descrizione:
-Progetto che raccoglie ricette e ne mostra gli ingredienti tramite l' API remota TheMealDB ( https://www.themealdb.com/api.php)
+Progetto che raccoglie ricette e ne mostra gli ingredienti tramite l' API remota
 
 Tecnologie usate:
 Html e Css (boostrap 5)
@@ -19,6 +19,4 @@ nome-progetto/
 │   ├── installazione.md
 │   ├── faq.md
 │   └── api.md
-└── assets/
-    └── immagini/
 
