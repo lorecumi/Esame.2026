@@ -8,6 +8,7 @@ File Javascript e json forniti dalla consegna dell'esercizio.
 
 Struttura del progetto:
 nome-progetto/
+├── link_del_progetto.url
 ├── README.md
 ├── index.html
 ├── ricette.html
