@@ -1,0 +1,89 @@
+
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ricettario Globale - Ingredienti Base</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-light">
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-success">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Ricettario Globale</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="ricette.html">Ricette</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="ingredienti.html">Ingredienti</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container my-5">
+        <div class="text-center mb-5">
+            <h1 class="fw-bold">Ingredienti</h1>
+        </div>
+
+        <section class="mb-5">
+            <div class="card shadow-sm p-4 bg-white">
+                <h2 class="h4 mb-3 text-secondary">Glossario Rapido degli Ingredienti</h2>
+                <div class="table-responsive">
+                    <table class="table table-hover align-middle">
+                        <thead class="table-dark">
+                            <tr>
+                                <th scope="col">Ingrediente</th>
+                                <th scope="col">Tipo</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Pasta</td>
+                                <td class="text-success">Carboidrati</td>
+                            </tr>
+                            <tr>
+                                <td>Pomodoro</td>
+                                <td class="text-danger">Verdura / Condimento</td>
+                            </tr>
+                            <tr>
+                                <td>Basilico</td>
+                                <td class="text-warning">Erba Aromatica</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+
+        <hr class="my-5">
+
+        <div class="mb-4">
+            <h2 class="h4 text-secondary">Ricette Correlate e loro Ingredienti</h2>
+        </div>
+        
+        <div id="status-message"></div>
+        <div id="data-container" class="row g-4"></div>
+    </main>
+
+    <footer class="bg-dark text-white text-center py-3 mt-auto">
+        <div class="container">
+            <p class="mb-0">&copy; Ricettario Globale</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
