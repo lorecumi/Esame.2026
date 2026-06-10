@@ -19,4 +19,3 @@ nome-progetto/
 ├── docs/
 │   ├── installazione.md
 │   └── api.md
-
